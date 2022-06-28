@@ -1,15 +1,12 @@
 <template>
   <div id="app">
-    <Benefits />
+    Food delivery
   </div>
 </template>
 
 <script>
-import Benefits from './components/Benefits'
-
 export default {
   name: "App",
-  components: { Benefits }
 };
 </script>
 
