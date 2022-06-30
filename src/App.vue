@@ -1,16 +1,17 @@
 <template>
   <div id="app">
     <Header />
-    Food delivery
+    <Benefits />
   </div>
 </template>
 
 <script>
+import Benefits from "@/components/Benefits";
 import Header from "@/components/Header";
 
 export default {
   name: "App",
-  components: { Header },
+  components: { Benefits, Header }
 };
 </script>
 
