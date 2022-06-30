@@ -103,7 +103,7 @@ export default {
 .nav-link {
   margin-right: 60px;
   padding: unset;
-  font-family: "Josefin Sans";
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
