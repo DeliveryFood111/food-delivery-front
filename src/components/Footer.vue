@@ -111,6 +111,10 @@ export default {
       max-width: 303px;
       text-align: center;
 
+      @media screen and (max-width: 680px) {
+        display: none;
+      }
+
       &-info {
         margin-top: 32px;
         font-size: 20px;
