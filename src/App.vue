@@ -17,7 +17,7 @@ import HistoryWithImages from "@/components/HistoryWithImages";
 
 export default {
   name: "App",
-  components: { Benefits, Header, Footer , MainScreen, HistoryWithImages }
+  components: { Benefits, Header, Footer, MainScreen, HistoryWithImages }
 };
 </script>
 
