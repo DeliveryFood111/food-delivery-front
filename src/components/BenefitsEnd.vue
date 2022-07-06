@@ -24,9 +24,7 @@
         <p class="benefits-2__cells__title">Наши лучшие сервисы</p>
         <p class="benefits-2__cells__title-text">
           The atmosphere set the stage. It’s about more than just a dining room
-          away from your home. food takes the spotlight as guests. The
-          atmosphere set the stage. It’s about more than just a dining room away
-          from your home. food takes the spotlight as guests.
+          away from your home. food takes the spotlight as guests.
         </p>
       </div>
     </div>
@@ -44,7 +42,7 @@ export default {
   display: flex;
   flex-direction: row;
   background-color: rgba(41, 46, 54, 1);
-  padding: 140px 40px 140px;
+  padding: 140px 40px;
 
   @media screen and (max-width: 993px) {
     justify-content: center;
@@ -68,8 +66,6 @@ export default {
     display: flex;
     flex-direction: column;
     border: 20px solid #323841;
-    width: fit-content;
-    height: fit-content;
     margin-left: 30px;
     padding: 30px 45px;
 
@@ -87,12 +83,13 @@ export default {
     }
 
     &__img {
-      margin-bottom: 5px;
+      margin-bottom: 15px;
     }
 
     &__text {
       color: white;
       font-size: 15px;
+      font-weight: 400;
     }
 
     &__content {
@@ -114,8 +111,10 @@ export default {
     &__chapter {
       color: white;
       width: fit-content;
-      font-size: 20px;
-      font-weight: 900;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: 3px;
       padding-top: 3px;
       padding-bottom: 3px;
       border-bottom: 1px solid yellow;
@@ -124,11 +123,16 @@ export default {
 
     &__title {
       color: white;
-      font-size: 30px;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 56px;
     }
 
     &__title-text {
       color: white;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
     }
   }
 }
