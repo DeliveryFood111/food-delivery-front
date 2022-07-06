@@ -40,9 +40,15 @@ export default {
 
 <style scoped lang="scss">
 .benefits {
+  padding-top: 100px;
+  padding-bottom: 60px;
   height: auto;
   width: auto;
   background-color: rgba(255, 248, 245, 1);
+
+  @media screen and (max-width: 993px) {
+    padding-top: 60px;
+  }
 
   &__container {
     display: flex;
