@@ -6,8 +6,8 @@
           <img src="../assets/location-icon.svg" />
         </div>
         <div class="benefits__cells-text">
-          <h4 class="benefits__cells-title">Мы находимся</h4>
-          <p class="benefits__cells-p">г.Киев ул.Крещатик 1</p>
+          <h4 class="benefits__cells-title">Быстро доставим!</h4>
+          <p class="benefits__cells-p">Доставляем еду в течении 30 минут</p>
         </div>
       </div>
       <div class="benefits__cells">
@@ -16,7 +16,7 @@
         </div>
         <div class="benefits__cells-text">
           <h4 class="benefits__cells-title">Часы работы</h4>
-          <p class="benefits__cells-p">Понедельника-Пятницу с 9:00-21:00</p>
+          <p class="benefits__cells-p">Работаем 24/7</p>
         </div>
       </div>
       <div class="benefits__cells">
@@ -24,8 +24,8 @@
           <img src="../assets/reserve-icon.svg" />
         </div>
         <div class="benefits__cells-text">
-          <h4 class="benefits__cells-title">Зарезервировать</h4>
-          <p class="benefits__cells-p">restaurantate@gmail.com</p>
+          <h4 class="benefits__cells-title">Простота оформления</h4>
+          <p class="benefits__cells-p">Оформляй заказ быстро и легко</p>
         </div>
       </div>
     </div>
