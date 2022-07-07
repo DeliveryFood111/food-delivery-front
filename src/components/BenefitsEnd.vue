@@ -1,28 +1,28 @@
 <template>
-  <section class="benefits-2">
-    <div class="benefits-2__container">
-      <div class="benefits-2__cells">
-        <div class="benefits-2__cells__img">
+  <section class="benefitsEnd">
+    <div class="benefitsEnd__container">
+      <div class="benefitsEnd__cells">
+        <div class="benefitsEnd_cells_img">
           <img src="../assets/benefitsEndIcon1.svg" />
         </div>
-        <div class="benefits-2__cells__text">Открыты 24/7</div>
+        <div class="benefitsEnd__cells_text">Открыты 24/7</div>
       </div>
-      <div class="benefits-2__cells">
-        <div class="benefits-2__cells__img">
+      <div class="benefitsEnd__gicells">
+        <div class="benefitsEnd__cells_img">
           <img src="../assets/benefitsEndIcon2.svg" />
         </div>
-        <div class="benefits-2__cells__text">Уникальное меню</div>
+        <div class="benefitsEnd__cells_text">Уникальное меню</div>
       </div>
-      <div class="benefits-2__cells">
-        <div class="benefits-2__cells__img">
+      <div class="benefitsEnd__cells">
+        <div class="benefitsEnd__cells_img">
           <img src="../assets/benefitsEndIcon3.svg" />
         </div>
-        <div class="benefits-2__cells__text">Доставка на дом</div>
+        <div class="benefitsEnd__cells_text">Доставка на дом</div>
       </div>
-      <div class="benefits-2__cells__content">
-        <h4 class="benefits-2__cells__chapter">Что мы предлагаем</h4>
-        <p class="benefits-2__cells__title">Наши лучшие сервисы</p>
-        <p class="benefits-2__cells__title-text">
+      <div class="benefitsEnd__cells_content">
+        <h4 class="benefitsEnd__cells_chapter">Что мы предлагаем</h4>
+        <p class="benefitsEnd__cells_title">Наши лучшие сервисы</p>
+        <p class="benefitsEnd__cells_title-text">
           The atmosphere set the stage. It’s about more than just a dining room
           away from your home. food takes the spotlight as guests.
         </p>
@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.benefits-2 {
+.benefitsEnd{
   display: flex;
   flex-direction: row;
   background-color: rgba(41, 46, 54, 1);
@@ -82,17 +82,17 @@ export default {
       padding: 20px;
     }
 
-    &__img {
+    &_img {
       margin-bottom: 15px;
     }
 
-    &__text {
+    &_text {
       color: white;
       font-size: 15px;
       font-weight: 400;
     }
 
-    &__content {
+    &_content {
       display: flex;
       flex-direction: column;
       margin-right: 50px;
@@ -108,7 +108,7 @@ export default {
       }
     }
 
-    &__chapter {
+    &_chapter {
       color: white;
       width: fit-content;
       font-size: 15px;
@@ -121,14 +121,14 @@ export default {
       border-top: 1px solid yellow;
     }
 
-    &__title {
+    &_title {
       color: white;
       font-size: 40px;
       font-weight: 400;
       line-height: 56px;
     }
 
-    &__title-text {
+    &_title-text {
       color: white;
       font-size: 20px;
       font-weight: 400;
