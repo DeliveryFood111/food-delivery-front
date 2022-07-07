@@ -77,6 +77,10 @@ export default {
     justify-content: space-between;
     padding: 130px 24px 40px;
 
+    @media screen and (max-width: 550px) {
+      padding: 50px 24px 40px;
+    }
+
     &-contacts {
       &-hashtag {
         font-size: 22px;

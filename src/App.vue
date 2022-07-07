@@ -19,12 +19,19 @@ import BenefitsEnd from "@/components/BenefitsEnd";
 
 export default {
   name: "App",
-  components: {Benefits, Header, Footer, MainScreen, HistoryWithImages, BenefitsEnd}
+  components: {
+    Benefits,
+    Header,
+    Footer,
+    MainScreen,
+    HistoryWithImages,
+    BenefitsEnd,
+  },
 };
 </script>
 
 <style>
 * {
   font-family: "Source Sans Pro";
-};
+}
 </style>
