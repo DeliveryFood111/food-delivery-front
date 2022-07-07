@@ -4,6 +4,7 @@
     <MainScreen />
     <Benefits />
     <HistoryWithImages />
+    <BenefitsEnd />
     <Footer />
   </div>
 </template>
@@ -14,10 +15,11 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MainScreen from "@/components/MainScreen";
 import HistoryWithImages from "@/components/HistoryWithImages";
+import BenefitsEnd from "@/components/BenefitsEnd";
 
 export default {
   name: "App",
-  components: { Benefits, Header, Footer, MainScreen, HistoryWithImages }
+  components: {Benefits, Header, Footer, MainScreen, HistoryWithImages, BenefitsEnd}
 };
 </script>
 
