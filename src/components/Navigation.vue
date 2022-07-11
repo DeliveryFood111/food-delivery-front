@@ -16,19 +16,29 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Почему мы</a>
+            <a class="nav-link" @click="scrollToElement('benefitsEnd')">
+              Чому нас обирають
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Наше меню</a>
+            <a class="nav-link" @click="scrollToElement('benefitsEnd')">
+              Наше меню
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">История</a>
+            <a class="nav-link" @click="scrollToElement('history-images')">
+              Історія
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Специальные предложения</a>
+            <a class="nav-link" @click="scrollToElement('history-images')">
+              Спеціальні пропозиції
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Популярное</a>
+            <a class="nav-link" @click="scrollToElement('history-images')">
+              Популярне
+            </a>
           </li>
         </ul>
 
@@ -43,16 +53,6 @@
               <img class="img" src="../assets/facebook.svg">
             </a>
           </li>
-          <li class="navigation__social-links">
-            <a href="https://twitter.com/" target="_blank">
-              <img class="img" src="../assets/twitter.svg">
-            </a>
-          </li>
-          <li class="navigation__social-links">
-            <a href="https://stackoverflow.com/" target="_blank">
-              <img class="img" src="../assets/stackoverflow.svg">
-            </a>
-          </li>
         </ul>
       </div>
     </div>
@@ -62,6 +62,12 @@
 <script>
 export default {
   name: "Navigation",
+  methods: {
+    scrollToElement (element) {
+      const targetElement = document.querySelector(`.${element}`);
+      targetElement.scrollIntoView({block: 'start', behavior: 'smooth'});
+    }
+  }
 };
 </script>
 

@@ -1,13 +1,13 @@
 <template>
   <header class="header">
     <div class="header__top">
-      <a href="tel: 123456789">
+      <a href="tel: +380667916850">
         <button class="btn btn-dark" type="button">
-          Позвонить - 123 456 789
+          Подзвонити +38(066) 791 68 50
         </button>
       </a>
       <img class="img" src="../assets/product-logo.svg">
-      <button class="btn btn-warning" type="button">Перейти к заказу</button>
+      <button class="btn btn-warning" type="button">Кошик</button>
     </div>
     <Navigation />
   </header>

@@ -6,7 +6,7 @@
         <div class="footer__top-contacts-info">
           <h6 class="footer__top-contacts-info-title">Контакты</h6>
           <p class="footer__top-contacts-info-item">22 Радужная, Киев</p>
-          <p class="footer__top-contacts-info-item">+123 456 789</p>
+          <p class="footer__top-contacts-info-item">+380667916850</p>
           <p class="footer__top-contacts-info-item">josefin@mail.com</p>
         </div>
       </div>
