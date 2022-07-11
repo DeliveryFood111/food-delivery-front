@@ -2,13 +2,13 @@
   <section class="main-screen">
     <div class="main-screen__info">
       <h1>
-        Доставка еды
+        Доставка їжі
       </h1>
       <p>
-        Доставка правильного сбалансированного пятиразового питания в г. Киев
+        Доставка збалансованого денного раціону до вашого будинку
       </p>
       <button class="btn btn-dark" type="button">
-        Перейти к меню
+        Перейти в меню
       </button>
     </div>
     <div class="main-screen__image">
