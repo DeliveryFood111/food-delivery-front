@@ -117,6 +117,7 @@ export default {
   color: #ffffff;
 
   &:hover {
+    cursor: pointer;
     color: #e1b168;
   }
 
