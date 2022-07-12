@@ -110,7 +110,7 @@ export default {
     padding-bottom: 20px;
 
     @media screen and (max-width: 1150px) {
-      width: 643px;
+      width: 630px;
       height: 419px;
     }
 

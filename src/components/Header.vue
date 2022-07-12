@@ -7,7 +7,12 @@
         </button>
       </a>
       <img class="img" src="../assets/product-logo.svg">
-      <button class="btn btn-warning" type="button">Кошик</button>
+      <button class="btn btn-warning" type="button">
+        <p class="btn_text">
+          Кошик
+        <img  class="btn_icon" src="../assets/basket-icon.svg">
+        </p>
+      </button>
     </div>
     <Navigation />
   </header>
@@ -43,6 +48,14 @@ export default {
   padding: 20px 57px;
   height: 73px;
   border: 2px solid #e1b168;
+
+  &_text{
+    margin: auto 0;
+  }
+
+  &_icon{
+      margin-left: 5px;
+  }
 }
 
 a {

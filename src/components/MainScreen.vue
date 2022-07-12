@@ -31,8 +31,10 @@ export default {
   padding-left: 40px;
   background: #292E36;
   color: white;
+  position: relative;
 
   @media screen and (max-width: 1085px) {
+    padding-left: unset;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -46,8 +48,12 @@ export default {
     margin: auto 0;
 
     @media screen and (max-width: 1085px) {
-      margin-bottom: 32px;
       text-align: center;
+      position: absolute;
+      top: 250px;
+    }
+    @media screen and (max-width: 550px){
+      top: 180px;
     }
 
     & > h1 {

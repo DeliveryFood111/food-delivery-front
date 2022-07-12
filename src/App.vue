@@ -5,6 +5,7 @@
     <Benefits />
     <HistoryWithImages />
     <BenefitsEnd />
+    <PopularProducts />
     <Footer />
   </div>
 </template>
@@ -16,6 +17,7 @@ import Footer from "@/components/Footer";
 import MainScreen from "@/components/MainScreen";
 import HistoryWithImages from "@/components/HistoryWithImages";
 import BenefitsEnd from "@/components/BenefitsEnd";
+import PopularProducts from "@/components/PopularProducts";
 
 export default {
   name: "App",
@@ -26,6 +28,7 @@ export default {
     MainScreen,
     HistoryWithImages,
     BenefitsEnd,
+    PopularProducts,
   },
 };
 </script>
