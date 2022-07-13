@@ -8,10 +8,10 @@
       </a>
       <img class="img" src="../assets/product-logo.svg">
       <button class="btn btn-warning" type="button">
-        <p class="btn_text">
+        <span class="btn_text">
           Кошик
+        </span>
         <img  class="btn_icon" src="../assets/basket-icon.svg">
-        </p>
       </button>
     </div>
     <Navigation />
@@ -49,11 +49,11 @@ export default {
   height: 73px;
   border: 2px solid #e1b168;
 
-  &_text{
+  &_text {
     margin: auto 0;
   }
 
-  &_icon{
+  &_icon {
       margin-left: 5px;
   }
 }
