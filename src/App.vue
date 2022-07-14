@@ -4,8 +4,8 @@
     <MainScreen />
     <Benefits />
     <HistoryWithImages />
-    <BenefitsEnd />
     <PopularProducts />
+    <BenefitsEnd />
     <Footer />
   </div>
 </template>
