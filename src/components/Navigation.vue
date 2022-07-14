@@ -45,12 +45,12 @@
         <ul class="navbar-nav">
           <li class="navigation__social-links">
             <a href="https://www.instagram.com/" target="_blank">
-              <img class="img" src="../assets/instagram.svg">
+              <img class="img" src="../assets/instagram.svg" />
             </a>
           </li>
           <li class="navigation__social-links">
             <a href="https://www.facebook.com/" target="_blank">
-              <img class="img" src="../assets/facebook.svg">
+              <img class="img" src="../assets/facebook.svg" />
             </a>
           </li>
         </ul>
@@ -65,7 +65,7 @@ export default {
   methods: {
     scrollToElement (element) {
       const targetElement = document.querySelector(`.${element}`);
-      targetElement.scrollIntoView({block: 'start', behavior: 'smooth'});
+      targetElement.scrollIntoView({ block: "start", behavior: "smooth" });
     }
   }
 };
