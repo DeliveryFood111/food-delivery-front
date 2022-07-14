@@ -49,12 +49,12 @@ export default {
   height: 73px;
   border: 2px solid #e1b168;
 
-  &_text{
+  &_text {
     margin: auto 0;
   }
 
-  &_icon{
-      margin-left: 5px;
+  &_icon {
+    margin-left: 5px;
   }
 }
 

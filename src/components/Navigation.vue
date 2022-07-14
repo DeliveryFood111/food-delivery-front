@@ -16,12 +16,12 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" @click="scrollToElement('benefitsEnd')">
+            <a class="nav-link" @click="scrollToElement('benefits')">
               Чому нас обирають
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" @click="scrollToElement('benefitsEnd')">
+            <a class="nav-link" @click="scrollToElement('menu')">
               Наше меню
             </a>
           </li>
@@ -36,7 +36,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" @click="scrollToElement('history-images')">
+            <a class="nav-link" @click="scrollToElement('popular-product')">
               Популярне
             </a>
           </li>
