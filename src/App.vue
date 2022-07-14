@@ -4,6 +4,7 @@
     <MainScreen />
     <Benefits />
     <HistoryWithImages />
+    <Menu />
     <PopularProducts />
     <BenefitsEnd />
     <Footer />
@@ -18,10 +19,12 @@ import MainScreen from "@/components/MainScreen";
 import HistoryWithImages from "@/components/HistoryWithImages";
 import BenefitsEnd from "@/components/BenefitsEnd";
 import PopularProducts from "@/components/PopularProducts";
+import Menu from "@/components/Menu";
 
 export default {
   name: "App",
   components: {
+    Menu,
     Benefits,
     Header,
     Footer,

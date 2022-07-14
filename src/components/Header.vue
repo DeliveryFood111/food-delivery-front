@@ -7,12 +7,12 @@
         </button>
       </a>
       <img class="img" src="../assets/product-logo.svg">
-      <button class="btn btn-warning" type="button">
-        <span class="btn_text">
+      <a class="btn btn-warning" data-bs-toggle="modal" href="#CartModalToggle" role="button">
+        <p class="btn_text">
           Кошик
-        </span>
-        <img  class="btn_icon" src="../assets/basket-icon.svg">
-      </button>
+          <img  class="btn_icon" src="../assets/basket-icon.svg">
+        </p>
+      </a>
     </div>
     <Navigation />
   </header>
@@ -54,7 +54,7 @@ export default {
   }
 
   &_icon {
-      margin-left: 5px;
+    margin-left: 5px;
   }
 }
 
